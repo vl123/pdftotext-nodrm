@@ -242,12 +242,12 @@ int main(int argc, char *argv[]) {
   }
 
   // check for copy permission
-  if (!doc->okToCopy()) {
+  /*if (!doc->okToCopy()) {
     error(errNotAllowed, -1,
 	  "Copying of text from this document is not allowed.");
     exitCode = 3;
     goto err2;
-  }
+  }*/
 
   // construct text file name
   if (argc == 3) {

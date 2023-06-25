@@ -1,4 +1,4 @@
-Xpdf
+Xpdf with disabled copy permission check
 ====
 
 version 4.04
@@ -12,6 +12,15 @@ WWW: http://www.xpdfreader.com/
 
 The PDF data structures, operators, and specification are
 documented in ISO 32000-2:2020.
+
+
+Build
+-----
+
+mkdir build
+cd build/
+cmake -DCMAKE_BUILD_TYPE=Release ../
+make
 
 
 What is Xpdf?
@@ -191,7 +200,7 @@ Various people have contributed modifications made for use by the
 pdftex project:
 
 * Han The Thanh
-* Martin Schröder of ArtCom GmbH
+* Martin Schrï¿½der of ArtCom GmbH
 
 
 References
